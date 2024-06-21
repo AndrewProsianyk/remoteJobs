@@ -1,9 +1,4 @@
-import { useSearchQuery, useSearchTextContext } from "../lib/hook";
-
-type SearchFormProps = {
-  searchText: string;
-  onChangeSearch: (searchText: string) => void;
-};
+import { useSearchTextContext } from "../lib/hook";
 
 export default function SearchForm() {
   const { searchText, handleChangeSearchText } = useSearchTextContext();

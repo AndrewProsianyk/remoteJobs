@@ -1,5 +1,4 @@
 import { useJobItemsContext } from "../lib/hook";
-import { SortBy } from "../lib/types";
 
 export default function SortingControls() {
   const { sortBy, handleChangeSortBy } = useJobItemsContext();
